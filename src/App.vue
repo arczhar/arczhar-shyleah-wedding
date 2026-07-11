@@ -352,24 +352,24 @@ const scrollTo = (id) => {
           <div class="parents-grid">
             <article>
               <h3>Parents of the Groom</h3>
-
               <p>Mr. Radzmil Madian Mummuh</p>
-
-              <p>
-                Mrs. Razherda Alvarez Mummuh, PhD
-              </p>
+              <p>Mrs. Razherda Alvarez Mummuh, PhD</p>
             </article>
 
             <article>
               <h3>Parents of the Bride</h3>
-
               <p>Mr. Rico Leonardo Punzalan</p>
-
-              <p>
-                Mrs. Merylen Ponce Punzalan
-              </p>
+              <p>Mrs. Merylen Ponce Punzalan</p>
             </article>
           </div>
+
+          <div class="imam-wrap">
+          <article class="glass-card imam-card">
+            <h3>Officiating Imam</h3>
+            <p>Imam Sahibuddin</p>
+            <p>Shiekh Ali Imran</p>
+          </article>
+        </div>
 
           <details class="entourage-group">
             <summary>
