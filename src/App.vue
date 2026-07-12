@@ -509,9 +509,19 @@ const scrollTo = (id) => {
           </div>
 
           <div class="dress-note">
-            Please refrain from wearing full white or cream, as
-            these colors are reserved for the bride and groom.
-          </div>
+          <h3>Modesty & Color Reminder</h3>
+
+          <p>
+            In respect of Muslim traditions, guests are kindly requested
+            to wear modest and appropriate attire. Please avoid revealing
+            or overly tight-fitting clothing.
+          </p>
+
+          <p>
+            Please refrain from wearing full white or cream, as these
+            colors are reserved for the bride and groom.
+          </p>
+        </div>
 
           <div class="reminders">
             <div>
