@@ -376,8 +376,8 @@ const scrollTo = (id) => {
           <div class="imam-wrap">
           <article class="glass-card imam-card">
             <h3>Officiating Imam</h3>
-            <p>Imam Sahibuddin</p>
-            <p>Shiekh Ali Imran</p>
+            <p>Imam Sahibuddin I. Muktadir</p>
+            <p>Shiekh Ali Imran Al-Raschid Arsad</p>
           </article>
         </div>
 
