@@ -51,7 +51,7 @@ const principalSponsors = [
   ['Dr. Revelino Sanchez', 'Mrs. Eva Sanchez'],
   ['Mr. Johnny Villaverde', 'Mrs. Myla Villaverde'],
   ['Mr. Ricardo Quintana', 'Mrs. Norma Quintana'],
-  ['Dr. Medzfar Ameril, EdD', 'Shellame Mabalo, EdD'],
+  ['Medzfar Ameril, EdD', 'Shellame Mabalo, EdD'],
   ['Mr. James Ryan Amamangpang', 'Mrs. Erlinda Campos'],
   ['Mr. Josel Franc', 'Mrs. Bernadita Calma'],
 ]
