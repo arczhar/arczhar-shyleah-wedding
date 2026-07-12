@@ -238,10 +238,20 @@ const scrollTo = (id) => {
               </span>
             </div>
 
-            <p class="hero-time">
-              2:00 PM · LM Metro Hotel
-            </p>
+            <div class="hero-event-card">
+  <div class="hero-event-detail">
+    <span class="hero-event-label">Time</span>
+    <strong>2:00 PM</strong>
+  </div>
 
+  <div class="hero-event-divider"></div>
+
+  <div class="hero-event-detail hero-event-venue">
+    <span class="hero-event-label">Venue</span>
+    <strong>Convention Hall A</strong>
+    <small>LM Metro Hotel</small>
+  </div>
+</div>
             <button
               class="gold-button"
               type="button"
@@ -307,7 +317,7 @@ const scrollTo = (id) => {
 
               <h3>Venue</h3>
 
-              <p>LM Metro Hotel</p>
+              <p>Convention Hall, LM Metro Hotel</p>
 
               <p>
                 Don Toribio Street, Tetuan, Zamboanga City
@@ -352,8 +362,8 @@ const scrollTo = (id) => {
           <div class="parents-grid">
             <article>
               <h3>Parents of the Groom</h3>
-              <p>Mr. Radzmil Madian Mummuh</p>
-              <p>Mrs. Razherda Alvarez Mummuh, PhD</p>
+              <p>Mr. Radzmil Madjan Mummuh</p>
+              <p>Mrs. Razhierda Alvarez Mummuh, PhD</p>
             </article>
 
             <article>

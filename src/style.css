@@ -66,6 +66,93 @@ nav { display:flex; gap:26px; } nav button { border:0; background:none; color:va
 .imam-card p {
   margin: 0.45rem 0;
 }
+.hero-event-card {
+  width: min(100%, 620px);
+  margin: 2rem auto 1.5rem;
+  padding: 1.35rem 1.75rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1.7fr;
+  align-items: center;
+  gap: 1.5rem;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 240, 190, 0.08),
+      rgba(255, 255, 255, 0.02)
+    );
+
+  border: 1px solid rgba(224, 175, 72, 0.55);
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.28),
+    inset 0 0 30px rgba(224, 175, 72, 0.035);
+
+  backdrop-filter: blur(8px);
+  text-align: center;
+}
+
+.hero-event-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.hero-event-label {
+  color: #d8a944;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.hero-event-detail strong {
+  color: #fff0bd;
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.hero-event-detail small {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.95rem;
+}
+
+.hero-event-divider {
+  width: 1px;
+  height: 58px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(224, 175, 72, 0.85),
+    transparent
+  );
+}
+
+@media (max-width: 600px) {
+  .hero-event-card {
+    width: 100%;
+    padding: 1.25rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .hero-event-divider {
+    width: 70%;
+    height: 1px;
+    margin: 0 auto;
+    background: linear-gradient(
+      to right,
+      transparent,
+      rgba(224, 175, 72, 0.85),
+      transparent
+    );
+  }
+
+  .hero-event-detail strong {
+    font-size: 1.25rem;
+  }
+}
 .dress-code{text-align:center}.palette{display:flex;justify-content:center;gap:42px;margin:38px 0}.palette div{display:grid;place-items:center;gap:10px}.swatch{width:82px;height:82px;border-radius:50%;border:3px solid rgba(255,255,255,.18);box-shadow:0 10px 30px rgba(0,0,0,.25)}.burgundy{background:#6f1028}.gold{background:#ca9849}.rose-gold{background:#d7a087}.dress-note{max-width:720px;margin:0 auto;padding:20px;border:1px solid rgba(215,174,96,.35);font-family:'Cormorant Garamond';font-size:24px;line-height:1.5}.reminders{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}.reminders div{padding:24px}.reminders span{display:block;font-size:38px;color:var(--gold);margin-bottom:10px}.reminders strong{font-family:'Cormorant Garamond';font-size:25px}
 .rsvp{background:#160002;text-align:center}.rsvp-form,.success-card,.closed-card{max-width:650px;margin:30px auto 0;padding:32px;text-align:left;border:1px solid rgba(215,174,96,.35);background:rgba(255,255,255,.035);box-shadow:var(--shadow)}.rsvp-form label{display:block;margin-bottom:20px;color:var(--gold-light);font-size:13px;text-transform:uppercase;letter-spacing:.08em}.rsvp-form label span{opacity:.7}.rsvp-form input,.rsvp-form textarea{width:100%;margin-top:9px;padding:14px 15px;border:1px solid rgba(215,174,96,.28);background:#240105;color:#fff;border-radius:4px;outline:none}.rsvp-form input:focus,.rsvp-form textarea:focus{border-color:var(--gold)}fieldset{border:0;padding:0;margin:0 0 20px;text-align:left}legend{color:var(--gold-light);font-size:13px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px}.radio{display:flex!important;align-items:center;gap:9px;text-transform:none!important;letter-spacing:0!important;color:var(--cream)!important}.radio input{width:auto;margin:0}.form-error{color:#ffb6b6}.demo-note{font-size:11px;line-height:1.5;color:#d6c2c2}.success-card,.closed-card{text-align:center}.success-card span{display:grid;place-items:center;margin:0 auto 15px;width:54px;height:54px;border-radius:50%;background:var(--gold);color:#310306;font-size:30px}.success-card h3,.closed-card h3{font-family:'Cormorant Garamond';font-size:34px;color:var(--gold-light);margin:0 0 10px}.closed-card a{color:var(--gold-light)}
 footer{text-align:center;padding:70px 24px;background:#0d0001;border-top:1px solid rgba(215,174,96,.25)}footer .script-subtitle{margin-bottom:10px}.blessing{font-family:'Cormorant Garamond';font-size:21px;color:#e8d5bc}
