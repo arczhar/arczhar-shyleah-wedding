@@ -554,11 +554,6 @@ const scrollTo = (id) => {
             RSVP
           </h2>
 
-          <p class="center-copy">
-            Please confirm your attendance on or before
-            July 20, 2026.
-          </p>
-
           <!-- Successful Submission -->
           <div
             v-if="submitted"
