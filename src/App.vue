@@ -463,7 +463,7 @@ const scrollTo = (id) => {
             <h3>Witnesses</h3>
 
             <p>
-              Mr. Alhamar B. Mahiluddin, RN
+              Mr. Al-Ahmar B. Mahiluddin, RN
             </p>
 
             <p>
