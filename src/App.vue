@@ -10,7 +10,7 @@ const submitted = ref(false)
 const submitError = ref('')
 
 const weddingDate = new Date('2026-07-25T14:00:00+08:00')
-const rsvpDeadline = new Date('2026-07-20T23:59:59+08:00')
+const rsvpDeadline = new Date('2026-07-24T23:59:59+08:00')
 let timer
 
 onMounted(() => {
